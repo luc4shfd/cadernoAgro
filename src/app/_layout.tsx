@@ -38,6 +38,28 @@ export default function Layout() {
           ),
         }}
       />
+
+        <Tabs.Screen
+        name="plantios"
+        options={{
+          title: "Plantios",
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="leaf" size={size} color={color} />
+          ),
+        }}
+      />
+
+      <Tabs.Screen
+        name="shop"
+        options={{
+          title: "Mercado",
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="bar-chart" size={size} color={color} />
+          ),
+        }}
+      />
     </Tabs>
+
+    
   );
 }
