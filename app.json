@@ -16,13 +16,14 @@
     "plugins": [
       "expo-router",
       [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash-icon.png",
-          "resizeMode": "contain",
-          "backgroundColor": "#4CAF50"
-        }
-      ]
+  "expo-splash-screen",
+  {
+    "image": "./assets/images/splash-icon.png",
+    "imageWidth": 350,
+    "resizeMode": "contain",
+    "backgroundColor": "#4CAF50"
+  }
+]
     ],
     "ios": {
       "bundleIdentifier": "com.anonymous.cadernoAgro"
