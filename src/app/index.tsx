@@ -13,7 +13,7 @@ export default function Home() {
         <View style= {styles.summaryBox}>
           <View style= {styles.summaryItem}>
             <Text style= {styles.summaryNumber}>3</Text>
-            <Text style= {styles.summaryLabel}>Plantis Ativos</Text>
+            <Text style= {styles.summaryLabel}>Plantios Ativos</Text>
           </View>
 
           <View style= {styles.summaryItem}>
